@@ -7,102 +7,104 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3ECDADDE16A47D1F00C2DBAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECDADDD16A47D1F00C2DBAA /* UIKit.framework */; };
-		3ECDADE016A47D1F00C2DBAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECDADDF16A47D1F00C2DBAA /* Foundation.framework */; };
-		3ECDADE216A47D1F00C2DBAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECDADE116A47D1F00C2DBAA /* CoreGraphics.framework */; };
-		3ECDADE816A47D1F00C2DBAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ECDADE616A47D1F00C2DBAA /* InfoPlist.strings */; };
-		3ECDADEA16A47D1F00C2DBAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECDADE916A47D1F00C2DBAA /* main.m */; };
-		3ECDADEE16A47D1F00C2DBAA /* ShoppingListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECDADED16A47D1F00C2DBAA /* ShoppingListAppDelegate.m */; };
-		3ECDADF016A47D1F00C2DBAA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECDADEF16A47D1F00C2DBAA /* Default.png */; };
-		3ECDADF216A47D1F00C2DBAA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECDADF116A47D1F00C2DBAA /* Default@2x.png */; };
-		3ECDADF416A47D1F00C2DBAA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECDADF316A47D1F00C2DBAA /* Default-568h@2x.png */; };
-		3ECDADF716A47D1F00C2DBAA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECDADF516A47D1F00C2DBAA /* MainStoryboard.storyboard */; };
-		3ECDADFA16A47D1F00C2DBAA /* ShoppingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECDADF916A47D1F00C2DBAA /* ShoppingListViewController.m */; };
+		3ECDAE1616A484C300C2DBAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECDAE1516A484C300C2DBAA /* UIKit.framework */; };
+		3ECDAE1816A484C300C2DBAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECDAE1716A484C300C2DBAA /* Foundation.framework */; };
+		3ECDAE1A16A484C300C2DBAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECDAE1916A484C300C2DBAA /* CoreGraphics.framework */; };
+		3ECDAE1C16A484C300C2DBAA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECDAE1B16A484C300C2DBAA /* CoreData.framework */; };
+		3ECDAE2216A484C300C2DBAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ECDAE2016A484C300C2DBAA /* InfoPlist.strings */; };
+		3ECDAE2416A484C300C2DBAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECDAE2316A484C300C2DBAA /* main.m */; };
+		3ECDAE2816A484C300C2DBAA /* SLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECDAE2716A484C300C2DBAA /* SLAppDelegate.m */; };
+		3ECDAE2A16A484C300C2DBAA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECDAE2916A484C300C2DBAA /* Default.png */; };
+		3ECDAE2C16A484C300C2DBAA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECDAE2B16A484C300C2DBAA /* Default@2x.png */; };
+		3ECDAE2E16A484C300C2DBAA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECDAE2D16A484C300C2DBAA /* Default-568h@2x.png */; };
+		3ECDAE3116A484C300C2DBAA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECDAE2F16A484C300C2DBAA /* MainStoryboard.storyboard */; };
+		3ECDAE3416A484C300C2DBAA /* ShoppingList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ECDAE3216A484C300C2DBAA /* ShoppingList.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3ECDADD916A47D1F00C2DBAA /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3ECDADDD16A47D1F00C2DBAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3ECDADDF16A47D1F00C2DBAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3ECDADE116A47D1F00C2DBAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3ECDADE516A47D1F00C2DBAA /* ShoppingList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShoppingList-Info.plist"; sourceTree = "<group>"; };
-		3ECDADE716A47D1F00C2DBAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3ECDADE916A47D1F00C2DBAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3ECDADEB16A47D1F00C2DBAA /* ShoppingList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShoppingList-Prefix.pch"; sourceTree = "<group>"; };
-		3ECDADEC16A47D1F00C2DBAA /* ShoppingListAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingListAppDelegate.h; sourceTree = "<group>"; };
-		3ECDADED16A47D1F00C2DBAA /* ShoppingListAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingListAppDelegate.m; sourceTree = "<group>"; };
-		3ECDADEF16A47D1F00C2DBAA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		3ECDADF116A47D1F00C2DBAA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		3ECDADF316A47D1F00C2DBAA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3ECDADF616A47D1F00C2DBAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3ECDADF816A47D1F00C2DBAA /* ShoppingListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingListViewController.h; sourceTree = "<group>"; };
-		3ECDADF916A47D1F00C2DBAA /* ShoppingListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingListViewController.m; sourceTree = "<group>"; };
+		3ECDAE1116A484C300C2DBAA /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECDAE1516A484C300C2DBAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3ECDAE1716A484C300C2DBAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3ECDAE1916A484C300C2DBAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3ECDAE1B16A484C300C2DBAA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3ECDAE1F16A484C300C2DBAA /* ShoppingList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShoppingList-Info.plist"; sourceTree = "<group>"; };
+		3ECDAE2116A484C300C2DBAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3ECDAE2316A484C300C2DBAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ECDAE2516A484C300C2DBAA /* ShoppingList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShoppingList-Prefix.pch"; sourceTree = "<group>"; };
+		3ECDAE2616A484C300C2DBAA /* SLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLAppDelegate.h; sourceTree = "<group>"; };
+		3ECDAE2716A484C300C2DBAA /* SLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAppDelegate.m; sourceTree = "<group>"; };
+		3ECDAE2916A484C300C2DBAA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3ECDAE2B16A484C300C2DBAA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3ECDAE2D16A484C300C2DBAA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3ECDAE3016A484C300C2DBAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3ECDAE3316A484C300C2DBAA /* ShoppingList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoppingList.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3ECDADD616A47D1F00C2DBAA /* Frameworks */ = {
+		3ECDAE0E16A484C300C2DBAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ECDADDE16A47D1F00C2DBAA /* UIKit.framework in Frameworks */,
-				3ECDADE016A47D1F00C2DBAA /* Foundation.framework in Frameworks */,
-				3ECDADE216A47D1F00C2DBAA /* CoreGraphics.framework in Frameworks */,
+				3ECDAE1616A484C300C2DBAA /* UIKit.framework in Frameworks */,
+				3ECDAE1816A484C300C2DBAA /* Foundation.framework in Frameworks */,
+				3ECDAE1A16A484C300C2DBAA /* CoreGraphics.framework in Frameworks */,
+				3ECDAE1C16A484C300C2DBAA /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3ECDADCE16A47D1F00C2DBAA = {
+		3ECDAE0616A484C300C2DBAA = {
 			isa = PBXGroup;
 			children = (
-				3ECDADE316A47D1F00C2DBAA /* ShoppingList */,
-				3ECDADDC16A47D1F00C2DBAA /* Frameworks */,
-				3ECDADDA16A47D1F00C2DBAA /* Products */,
+				3ECDAE1D16A484C300C2DBAA /* ShoppingList */,
+				3ECDAE1416A484C300C2DBAA /* Frameworks */,
+				3ECDAE1216A484C300C2DBAA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3ECDADDA16A47D1F00C2DBAA /* Products */ = {
+		3ECDAE1216A484C300C2DBAA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3ECDADD916A47D1F00C2DBAA /* ShoppingList.app */,
+				3ECDAE1116A484C300C2DBAA /* ShoppingList.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3ECDADDC16A47D1F00C2DBAA /* Frameworks */ = {
+		3ECDAE1416A484C300C2DBAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3ECDADDD16A47D1F00C2DBAA /* UIKit.framework */,
-				3ECDADDF16A47D1F00C2DBAA /* Foundation.framework */,
-				3ECDADE116A47D1F00C2DBAA /* CoreGraphics.framework */,
+				3ECDAE1516A484C300C2DBAA /* UIKit.framework */,
+				3ECDAE1716A484C300C2DBAA /* Foundation.framework */,
+				3ECDAE1916A484C300C2DBAA /* CoreGraphics.framework */,
+				3ECDAE1B16A484C300C2DBAA /* CoreData.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3ECDADE316A47D1F00C2DBAA /* ShoppingList */ = {
+		3ECDAE1D16A484C300C2DBAA /* ShoppingList */ = {
 			isa = PBXGroup;
 			children = (
-				3ECDADEC16A47D1F00C2DBAA /* ShoppingListAppDelegate.h */,
-				3ECDADED16A47D1F00C2DBAA /* ShoppingListAppDelegate.m */,
-				3ECDADF516A47D1F00C2DBAA /* MainStoryboard.storyboard */,
-				3ECDADF816A47D1F00C2DBAA /* ShoppingListViewController.h */,
-				3ECDADF916A47D1F00C2DBAA /* ShoppingListViewController.m */,
-				3ECDADE416A47D1F00C2DBAA /* Supporting Files */,
+				3ECDAE2616A484C300C2DBAA /* SLAppDelegate.h */,
+				3ECDAE2716A484C300C2DBAA /* SLAppDelegate.m */,
+				3ECDAE2F16A484C300C2DBAA /* MainStoryboard.storyboard */,
+				3ECDAE3216A484C300C2DBAA /* ShoppingList.xcdatamodeld */,
+				3ECDAE1E16A484C300C2DBAA /* Supporting Files */,
 			);
 			path = ShoppingList;
 			sourceTree = "<group>";
 		};
-		3ECDADE416A47D1F00C2DBAA /* Supporting Files */ = {
+		3ECDAE1E16A484C300C2DBAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3ECDADE516A47D1F00C2DBAA /* ShoppingList-Info.plist */,
-				3ECDADE616A47D1F00C2DBAA /* InfoPlist.strings */,
-				3ECDADE916A47D1F00C2DBAA /* main.m */,
-				3ECDADEB16A47D1F00C2DBAA /* ShoppingList-Prefix.pch */,
-				3ECDADEF16A47D1F00C2DBAA /* Default.png */,
-				3ECDADF116A47D1F00C2DBAA /* Default@2x.png */,
-				3ECDADF316A47D1F00C2DBAA /* Default-568h@2x.png */,
+				3ECDAE1F16A484C300C2DBAA /* ShoppingList-Info.plist */,
+				3ECDAE2016A484C300C2DBAA /* InfoPlist.strings */,
+				3ECDAE2316A484C300C2DBAA /* main.m */,
+				3ECDAE2516A484C300C2DBAA /* ShoppingList-Prefix.pch */,
+				3ECDAE2916A484C300C2DBAA /* Default.png */,
+				3ECDAE2B16A484C300C2DBAA /* Default@2x.png */,
+				3ECDAE2D16A484C300C2DBAA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,13 +112,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3ECDADD816A47D1F00C2DBAA /* ShoppingList */ = {
+		3ECDAE1016A484C300C2DBAA /* ShoppingList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ECDADFD16A47D1F00C2DBAA /* Build configuration list for PBXNativeTarget "ShoppingList" */;
+			buildConfigurationList = 3ECDAE3D16A484C300C2DBAA /* Build configuration list for PBXNativeTarget "ShoppingList" */;
 			buildPhases = (
-				3ECDADD516A47D1F00C2DBAA /* Sources */,
-				3ECDADD616A47D1F00C2DBAA /* Frameworks */,
-				3ECDADD716A47D1F00C2DBAA /* Resources */,
+				3ECDAE0D16A484C300C2DBAA /* Sources */,
+				3ECDAE0E16A484C300C2DBAA /* Frameworks */,
+				3ECDAE0F16A484C300C2DBAA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -124,77 +126,77 @@
 			);
 			name = ShoppingList;
 			productName = ShoppingList;
-			productReference = 3ECDADD916A47D1F00C2DBAA /* ShoppingList.app */;
+			productReference = 3ECDAE1116A484C300C2DBAA /* ShoppingList.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3ECDADD016A47D1F00C2DBAA /* Project object */ = {
+		3ECDAE0816A484C300C2DBAA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = ShoppingList;
+				CLASSPREFIX = SL;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "jpsilva's company";
 			};
-			buildConfigurationList = 3ECDADD316A47D1F00C2DBAA /* Build configuration list for PBXProject "ShoppingList" */;
+			buildConfigurationList = 3ECDAE0B16A484C300C2DBAA /* Build configuration list for PBXProject "ShoppingList" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 3ECDADCE16A47D1F00C2DBAA;
-			productRefGroup = 3ECDADDA16A47D1F00C2DBAA /* Products */;
+			mainGroup = 3ECDAE0616A484C300C2DBAA;
+			productRefGroup = 3ECDAE1216A484C300C2DBAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3ECDADD816A47D1F00C2DBAA /* ShoppingList */,
+				3ECDAE1016A484C300C2DBAA /* ShoppingList */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3ECDADD716A47D1F00C2DBAA /* Resources */ = {
+		3ECDAE0F16A484C300C2DBAA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ECDADE816A47D1F00C2DBAA /* InfoPlist.strings in Resources */,
-				3ECDADF016A47D1F00C2DBAA /* Default.png in Resources */,
-				3ECDADF216A47D1F00C2DBAA /* Default@2x.png in Resources */,
-				3ECDADF416A47D1F00C2DBAA /* Default-568h@2x.png in Resources */,
-				3ECDADF716A47D1F00C2DBAA /* MainStoryboard.storyboard in Resources */,
+				3ECDAE2216A484C300C2DBAA /* InfoPlist.strings in Resources */,
+				3ECDAE2A16A484C300C2DBAA /* Default.png in Resources */,
+				3ECDAE2C16A484C300C2DBAA /* Default@2x.png in Resources */,
+				3ECDAE2E16A484C300C2DBAA /* Default-568h@2x.png in Resources */,
+				3ECDAE3116A484C300C2DBAA /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3ECDADD516A47D1F00C2DBAA /* Sources */ = {
+		3ECDAE0D16A484C300C2DBAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ECDADEA16A47D1F00C2DBAA /* main.m in Sources */,
-				3ECDADEE16A47D1F00C2DBAA /* ShoppingListAppDelegate.m in Sources */,
-				3ECDADFA16A47D1F00C2DBAA /* ShoppingListViewController.m in Sources */,
+				3ECDAE2416A484C300C2DBAA /* main.m in Sources */,
+				3ECDAE2816A484C300C2DBAA /* SLAppDelegate.m in Sources */,
+				3ECDAE3416A484C300C2DBAA /* ShoppingList.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3ECDADE616A47D1F00C2DBAA /* InfoPlist.strings */ = {
+		3ECDAE2016A484C300C2DBAA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3ECDADE716A47D1F00C2DBAA /* en */,
+				3ECDAE2116A484C300C2DBAA /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		3ECDADF516A47D1F00C2DBAA /* MainStoryboard.storyboard */ = {
+		3ECDAE2F16A484C300C2DBAA /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3ECDADF616A47D1F00C2DBAA /* en */,
+				3ECDAE3016A484C300C2DBAA /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -202,7 +204,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3ECDADFB16A47D1F00C2DBAA /* Debug */ = {
+		3ECDAE3B16A484C300C2DBAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +232,7 @@
 			};
 			name = Debug;
 		};
-		3ECDADFC16A47D1F00C2DBAA /* Release */ = {
+		3ECDAE3C16A484C300C2DBAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +254,7 @@
 			};
 			name = Release;
 		};
-		3ECDADFE16A47D1F00C2DBAA /* Debug */ = {
+		3ECDAE3E16A484C300C2DBAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -263,7 +265,7 @@
 			};
 			name = Debug;
 		};
-		3ECDADFF16A47D1F00C2DBAA /* Release */ = {
+		3ECDAE3F16A484C300C2DBAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -277,24 +279,37 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3ECDADD316A47D1F00C2DBAA /* Build configuration list for PBXProject "ShoppingList" */ = {
+		3ECDAE0B16A484C300C2DBAA /* Build configuration list for PBXProject "ShoppingList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3ECDADFB16A47D1F00C2DBAA /* Debug */,
-				3ECDADFC16A47D1F00C2DBAA /* Release */,
+				3ECDAE3B16A484C300C2DBAA /* Debug */,
+				3ECDAE3C16A484C300C2DBAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3ECDADFD16A47D1F00C2DBAA /* Build configuration list for PBXNativeTarget "ShoppingList" */ = {
+		3ECDAE3D16A484C300C2DBAA /* Build configuration list for PBXNativeTarget "ShoppingList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3ECDADFE16A47D1F00C2DBAA /* Debug */,
-				3ECDADFF16A47D1F00C2DBAA /* Release */,
+				3ECDAE3E16A484C300C2DBAA /* Debug */,
+				3ECDAE3F16A484C300C2DBAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3ECDAE3216A484C300C2DBAA /* ShoppingList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3ECDAE3316A484C300C2DBAA /* ShoppingList.xcdatamodel */,
+			);
+			currentVersion = 3ECDAE3316A484C300C2DBAA /* ShoppingList.xcdatamodel */;
+			path = ShoppingList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 3ECDADD016A47D1F00C2DBAA /* Project object */;
+	rootObject = 3ECDAE0816A484C300C2DBAA /* Project object */;
 }
