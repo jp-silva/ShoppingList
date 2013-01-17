@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E605CA116A7641C00CECDE1 /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E605CA016A7641C00CECDE1 /* Categories.m */; };
+		3E605CA816A7764E00CECDE1 /* Units.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E605CA716A7764E00CECDE1 /* Units.m */; };
+		3E605CAC16A7792C00CECDE1 /* Items.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E605CAB16A7792B00CECDE1 /* Items.m */; };
 		3ECDAE1616A484C300C2DBAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECDAE1516A484C300C2DBAA /* UIKit.framework */; };
 		3ECDAE1816A484C300C2DBAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECDAE1716A484C300C2DBAA /* Foundation.framework */; };
 		3ECDAE1A16A484C300C2DBAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECDAE1916A484C300C2DBAA /* CoreGraphics.framework */; };
@@ -19,9 +22,16 @@
 		3ECDAE2E16A484C300C2DBAA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECDAE2D16A484C300C2DBAA /* Default-568h@2x.png */; };
 		3ECDAE3116A484C300C2DBAA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECDAE2F16A484C300C2DBAA /* MainStoryboard.storyboard */; };
 		3ECDAE3416A484C300C2DBAA /* ShoppingList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ECDAE3216A484C300C2DBAA /* ShoppingList.xcdatamodeld */; };
+		3ECDAE4216A4859A00C2DBAA /* SLMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECDAE4116A4859A00C2DBAA /* SLMasterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E605C9F16A7641C00CECDE1 /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		3E605CA016A7641C00CECDE1 /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categories.m; sourceTree = "<group>"; };
+		3E605CA616A7764E00CECDE1 /* Units.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Units.h; sourceTree = "<group>"; };
+		3E605CA716A7764E00CECDE1 /* Units.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Units.m; sourceTree = "<group>"; };
+		3E605CAA16A7792B00CECDE1 /* Items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Items.h; sourceTree = "<group>"; };
+		3E605CAB16A7792B00CECDE1 /* Items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Items.m; sourceTree = "<group>"; };
 		3ECDAE1116A484C300C2DBAA /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ECDAE1516A484C300C2DBAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3ECDAE1716A484C300C2DBAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -38,6 +48,8 @@
 		3ECDAE2D16A484C300C2DBAA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3ECDAE3016A484C300C2DBAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3ECDAE3316A484C300C2DBAA /* ShoppingList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoppingList.xcdatamodel; sourceTree = "<group>"; };
+		3ECDAE4016A4859A00C2DBAA /* SLMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMasterViewController.h; sourceTree = "<group>"; };
+		3ECDAE4116A4859A00C2DBAA /* SLMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMasterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +102,15 @@
 				3ECDAE2716A484C300C2DBAA /* SLAppDelegate.m */,
 				3ECDAE2F16A484C300C2DBAA /* MainStoryboard.storyboard */,
 				3ECDAE3216A484C300C2DBAA /* ShoppingList.xcdatamodeld */,
+				3E605CAA16A7792B00CECDE1 /* Items.h */,
+				3E605CAB16A7792B00CECDE1 /* Items.m */,
+				3E605CA616A7764E00CECDE1 /* Units.h */,
+				3E605CA716A7764E00CECDE1 /* Units.m */,
+				3E605C9F16A7641C00CECDE1 /* Categories.h */,
+				3E605CA016A7641C00CECDE1 /* Categories.m */,
 				3ECDAE1E16A484C300C2DBAA /* Supporting Files */,
+				3ECDAE4016A4859A00C2DBAA /* SLMasterViewController.h */,
+				3ECDAE4116A4859A00C2DBAA /* SLMasterViewController.m */,
 			);
 			path = ShoppingList;
 			sourceTree = "<group>";
@@ -179,6 +199,10 @@
 				3ECDAE2416A484C300C2DBAA /* main.m in Sources */,
 				3ECDAE2816A484C300C2DBAA /* SLAppDelegate.m in Sources */,
 				3ECDAE3416A484C300C2DBAA /* ShoppingList.xcdatamodeld in Sources */,
+				3ECDAE4216A4859A00C2DBAA /* SLMasterViewController.m in Sources */,
+				3E605CA116A7641C00CECDE1 /* Categories.m in Sources */,
+				3E605CA816A7764E00CECDE1 /* Units.m in Sources */,
+				3E605CAC16A7792C00CECDE1 /* Items.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +319,7 @@
 				3ECDAE3F16A484C300C2DBAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

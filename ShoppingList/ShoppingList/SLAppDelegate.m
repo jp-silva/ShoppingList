@@ -7,8 +7,10 @@
 //
 
 #import "SLAppDelegate.h"
-
 #import "SLMasterViewController.h"
+#import "Items.h"
+#import "Units.h"
+#import "Categories.h"
 
 @implementation SLAppDelegate
 
@@ -18,6 +20,27 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    //[self deleteAllObjects:@"Categories"];
+    //[self populateDatabase];
+    
+    
+    //FETCH AND PRINT
+    /*NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription
+                                   entityForName:@"Categories" inManagedObjectContext:context];
+    [fetchRequest setEntity:entity];
+    NSArray *fetchedObjects = [context executeFetchRequest:fetchRequest error:&error];
+    for (Categories *category in fetchedObjects) {
+        NSLog(@"Category Name: %@ \n", category.name);
+        
+        NSArray *categoryItems = [category valueForKey:@"items"];
+        for(Items *item in categoryItems){
+            NSLog(@"Item Name: %@\n", item.name);
+        }
+    }*/
+    
+    
     // Override point for customization after application launch.
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
     SLMasterViewController *controller = (SLMasterViewController *)navigationController.topViewController;
@@ -140,6 +163,92 @@
     return _persistentStoreCoordinator;
 }
 
+//MY METHODS
+
+
+- (void) populateDatabase
+{
+    NSManagedObjectContext *context = [self managedObjectContext];
+    NSError *error;
+    
+    //UNITS
+    Units *unitKg = [NSEntityDescription insertNewObjectForEntityForName:@"Units" inManagedObjectContext:context];
+    Units *unitg = [NSEntityDescription insertNewObjectForEntityForName:@"Units" inManagedObjectContext:context];
+    Units *unitUnits = [NSEntityDescription insertNewObjectForEntityForName:@"Units" inManagedObjectContext:context];
+    Units *unitL = [NSEntityDescription insertNewObjectForEntityForName:@"Units" inManagedObjectContext:context];
+    Units *unitml = [NSEntityDescription insertNewObjectForEntityForName:@"Units" inManagedObjectContext:context];
+    
+    unitKg.name = @"Kg";
+    unitg.name = @"g";
+    unitUnits.name = @"units";
+    unitL.name = @"L";
+    unitml.name = @"ml";  
+    
+    //VEGETAIS
+    Categories *category = [NSEntityDescription
+                            insertNewObjectForEntityForName:@"Categories"
+                            inManagedObjectContext:context];
+    category.name = @"Vegetables";
+    
+    Items *item = [NSEntityDescription insertNewObjectForEntityForName:@"Items" inManagedObjectContext:context];
+    Items *item1 = [NSEntityDescription insertNewObjectForEntityForName:@"Items" inManagedObjectContext:context];
+    Items *item2 = [NSEntityDescription insertNewObjectForEntityForName:@"Items" inManagedObjectContext:context];
+
+    item.name = @"Carrot";
+    [unitKg addItemsObject:item];
+    [category addItemsObject:item];
+    item1.name = @"Onion";
+    [unitKg addItemsObject:item1];
+    [category addItemsObject:item1];
+    item2.name = @"Cabbage";
+    [unitKg addItemsObject:item2];
+    [category addItemsObject:item2];
+
+    //FRUITS
+    Categories *category2 = [NSEntityDescription
+                            insertNewObjectForEntityForName:@"Categories"
+                            inManagedObjectContext:context];
+    category2.name = @"Fruits";
+    Items *item3 = [NSEntityDescription insertNewObjectForEntityForName:@"Items"
+                                                inManagedObjectContext:context];
+    Items *item4 = [NSEntityDescription insertNewObjectForEntityForName:@"Items"
+                                                 inManagedObjectContext:context];
+    Items *item5 = [NSEntityDescription insertNewObjectForEntityForName:@"Items"
+                                                 inManagedObjectContext:context];
+    item3.name = @"Peach";
+    [unitKg addItemsObject:item3];
+    [category2 addItemsObject:item3];
+    item4.name = @"Apple";
+    [unitKg addItemsObject:item4];
+    [category2 addItemsObject:item4];
+    item5.name = @"Banana";
+    [unitKg addItemsObject:item5];
+    [category2 addItemsObject:item5];   
+    
+    if (![context save:&error]) {
+        NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+    }
+}
+
+- (void) deleteAllObjects: (NSString *) entityDescription  {
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:entityDescription inManagedObjectContext:[self managedObjectContext]];
+    [fetchRequest setEntity:entity];
+    
+    NSError *error;
+    NSArray *items = [_managedObjectContext executeFetchRequest:fetchRequest error:&error];
+    
+    for (NSManagedObject *managedObject in items) {
+    	[_managedObjectContext deleteObject:managedObject];
+    	NSLog(@"%@ object deleted",entityDescription);
+    }
+    if (![_managedObjectContext save:&error]) {
+    	NSLog(@"Error deleting %@ - error:%@",entityDescription,error);
+    }
+    
+}
+
+
 #pragma mark - Application's Documents directory
 
 // Returns the URL to the application's Documents directory.
@@ -147,5 +256,9 @@
 {
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
+
+
+
+
 
 @end
