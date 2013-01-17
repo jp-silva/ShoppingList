@@ -11,7 +11,7 @@
 @interface SLMasterViewController : UITableViewController
 
 @property (nonatomic,strong) NSManagedObjectContext* managedObjectContext;
-@property (nonatomic, strong) NSArray *categories;
+@property (nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
 @property NSIndexPath *currentIndexPath;
 
 @end
